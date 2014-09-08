@@ -10,7 +10,7 @@ int main()
     int n,d,k;
     
     cin>>n>>k>>d;
-    if(pow(k,d)<n){
+    if(d<log(n)/log(k)-0.000001){
         cout<<-1;
     }
     else{
